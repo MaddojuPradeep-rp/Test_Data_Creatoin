@@ -1,0 +1,712 @@
+{
+  "intent": "payments",
+  "channel": "chat",
+  "total_test_cases": 72,
+  "single_turn_count": 53,
+  "multi_turn_count": 19,
+  "test_cases": {
+    "single_turn": [
+      {
+        "test_case_id": "TC_PAYMENT_001",
+        "turns": [
+          "What is my balance?, my unit number is {resident_unit_number} and birth year is {resident_birth_year}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_002",
+        "turns": [
+          "Why is my balance so much? can you break down the charges? my unit number is {resident_unit_number} and birth year is {resident_birth_year}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_003",
+        "turns": [
+          "Why is my rent balance higher than expected? my unit number is {resident_unit_number} and birth year is {resident_birth_year}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_004",
+        "turns": [
+          "just moved in, what is rent payment process?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_005",
+        "turns": [
+          "What different charges are there as part of rent?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_006",
+        "turns": [
+          "How much is my rent?, My unit number is {resident_unit_number} and birth year is {resident_birth_year}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_007",
+        "turns": [
+          "What do I owe this month? when is my rent due? my unit number is {resident_unit_number} and birth year is {resident_birth_year}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_008",
+        "turns": [
+          "How do I pay my rent? is there any late fee if I pay late?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_009",
+        "turns": [
+          "Where can I pay rent? is there any online payment option?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_010",
+        "turns": [
+          "What are the methods available for paying rent? can you send me a payment link?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_011",
+        "turns": [
+          "Just paid rent, can you confirm if it is received? my unit number is {resident_unit_number} and birth year is {resident_birth_year}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_012",
+        "turns": [
+          "Can you send me a payment link? can I see my payment history?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_013",
+        "turns": [
+          "When is my rent due? my unit number is {resident_unit_number} and birth year is {resident_birth_year}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_014",
+        "turns": [
+          "I am seeing late fees on my account, but I paid on time last month, can you explain?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_015",
+        "turns": [
+          "What date do I have to pay by? my unit number is {resident_unit_number} and birth year is {resident_birth_year}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_016",
+        "turns": [
+          "When is the deadline to pay rent? why deadline?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_017",
+        "turns": [
+          "What is the penalty for late rent payments?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_018",
+        "turns": [
+          "how much are the late fees?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_019",
+        "turns": [
+          "if I dont want to pay late fees, Whom to contact?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_020",
+        "turns": [
+          "Can you waive my late fees? my unit number is {resident_unit_number} and birth year is {resident_birth_year}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_021",
+        "turns": [
+          "What is the late fee policy?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_022",
+        "turns": [
+          "Did you receive my rent payment? my unit number is {resident_unit_number} and birth year is {resident_birth_year}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_023",
+        "turns": [
+          "My rent payment is not reflecting on my account, can you check? my unit number is {resident_unit_number} and birth year is {resident_birth_year}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_024",
+        "turns": [
+          "Can you confirm my payment went through?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_025",
+        "turns": [
+          "Can you waive my late fees as I am a new resident? my unit number is {resident_unit_number} and birth year is {resident_birth_year}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_026",
+        "turns": [
+          "I see an admin fee on my account, what is this for?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_027",
+        "turns": [
+          "What is this billing fee charge?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_028",
+        "turns": [
+          "I have a charge I don't recognize"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_029",
+        "turns": [
+          "Can you send me the payment portal link?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_030",
+        "turns": [
+          "I need the payment link"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_031",
+        "turns": [
+          "payment portal link is not working, any change in link?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_032",
+        "turns": [
+          "How long is my lease?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_033",
+        "turns": [
+          "What's my lease duration? when it started?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_034",
+        "turns": [
+          "How many months is my lease for? when it ends?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_035",
+        "turns": [
+          "What is the term of my lease?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_036",
+        "turns": [
+          "When does my lease end? can I extend it thorugh online portal?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_037",
+        "turns": [
+          "What's my lease end date? can we move out early?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_038",
+        "turns": [
+          "When is my lease up? is there any penalty for early move out?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_039",
+        "turns": [
+          "What date does my lease expire? where can I see my lease details?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_040",
+        "turns": [
+          "What's my unit number?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_041",
+        "turns": [
+          "Can I change my unit without any charges?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_042",
+        "turns": [
+          "What apartment number do I have?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_043",
+        "turns": [
+          "Can you tell me my unit number? I just moved in"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_044",
+        "turns": [
+          "What building am I in?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_045",
+        "turns": [
+          "What's my building number? want to change my unit number?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_046",
+        "turns": [
+          "Which building is my unit in?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_047",
+        "turns": [
+          "What's the balance for unit 15?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_048",
+        "turns": [
+          "How much is the rent for unit 456?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_049",
+        "turns": [
+          "Can you check the balance for apartment 789?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_050",
+        "turns": [
+          "What's the rent due for unit 321?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_051",
+        "turns": [
+          "Can you list all my charges? where can I see my charges?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_052",
+        "turns": [
+          "Show me a breakdown of all charges on my account? I see there is an admin fee, can you explain? my unit number is {resident_unit_number} and birth year is {resident_birth_year}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_053",
+        "turns": [
+          "What are all the charges I have? can you send me a payment link?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      }
+    ],
+    "multi_turn": [
+      {
+        "test_case_id": "TC_PAYMENT_MT_001",
+        "turns": [
+          "What is my account balance?",
+          "Can you break down the charges?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_002",
+        "turns": [
+          "What's my balance? ",
+          "How can I pay it?",
+          "When is it due?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_003",
+        "turns": [
+          "What are the late fees if I pay after the due date?",
+          "Can you waive my late fee this time?",
+          "Is there a grace period?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_004",
+        "turns": [
+          "Did you receive my rent payment? ",
+          "What's my balance now?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_005",
+        "turns": [
+          "My balance looks higher than usual? Did my rent increase?",
+          "connect me to a representative"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_006",
+        "turns": [
+          "Did my last payment go through?",
+          "Can you show me my payment history?",
+          "When exactly did my last month payment post?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_007",
+        "turns": [
+          "I see a billing fee on my account, What is this fee for?",
+          "Will I be charged this every month?",
+          "connect me to the billing department"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_008",
+        "turns": [
+          "What do I owe this month? Can I pay online?",
+          "Can you send me a payment link?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_009",
+        "turns": [
+          "What is my balance? ",
+          "I have a complaint about the charges, Connect me to a representative?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_010",
+        "turns": [
+          "My balance is high this month? ",
+          "Can I set up a payment plan? connect me to a representative"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_011",
+        "turns": [
+          "When is my rent due?",
+          "What happens if I'm late?,How much are the late fees?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_012",
+        "turns": [
+          "How do I pay my rent? Can I use a credit card?",
+          "Are there any fees for credit card payments?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_013",
+        "turns": [
+          "Why is my balance so much?,Can you give me a breakdown?",
+          "Do I have any other charges besides rent?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_014",
+        "turns": [
+          "How long is my lease? When does it end?",
+          "Can you send me the payment portal link?is there any penalty for early move out?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_015",
+        "turns": [
+          "What's my unit number?",
+          "Which building is it in?",
+          "What's my rent amount? can you send me a payment link?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_016",
+        "turns": [
+          "What's the balance for unit 123?",
+          "that is also my unit number, can you break down the charges?",
+          "When is payment due?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_017",
+        "turns": [
+          "What's my current balance?",
+          "Can you send me the payment portal link?",
+          "What's the due date?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_018",
+        "turns": [
+          "When is my lease up?",
+          "Do I have any outstanding balance? ",
+          "How can I pay it?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PAYMENT_MT_019",
+        "turns": [
+          "Can you list all my charges? ",
+          "Why is there an admin fee?",
+          "Can these fees be waived?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}

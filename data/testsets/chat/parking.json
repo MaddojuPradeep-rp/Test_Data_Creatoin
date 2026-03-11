@@ -1,0 +1,478 @@
+{
+  "intent": "parking",
+  "channel": "chat",
+  "total_test_cases": 45,
+  "single_turn_count": 27,
+  "multi_turn_count": 18,
+  "test_cases": {
+    "single_turn": [
+      {
+        "test_case_id": "TC_PARKING_001",
+        "turns": [
+          "Can you send me the guest parking portal link?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_002",
+        "turns": [
+          "How many guest parking passes can I get, is there any limitation?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_003",
+        "turns": [
+          "Where can I find guest parking information?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_004",
+        "turns": [
+          "What is the guest parking policy?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_005",
+        "turns": [
+          "Where is guest parking located?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_006",
+        "turns": [
+          "Create a guest parking pass for Honda Civic license plate ABC123 and my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_007",
+        "turns": [
+          "How does guest parking work here?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_008",
+        "turns": [
+          "Can guests park overnight?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_009",
+        "turns": [
+          "What are guest parking hours?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_010",
+        "turns": [
+          "Are there any guest parking fees?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_011",
+        "turns": [
+          "Create a guest parking pass for Honda Civic license plate ABC123 and my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_012",
+        "turns": [
+          "I need a guest pass for Toyota Camry plate XYZ789"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_013",
+        "turns": [
+          "Can you issue a guest parking pass for a Ford F-150 with plate DEF456? I am not sure about unit number, ignore it and just create a pass"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_014",
+        "turns": [
+          "I need a guest parking pass for tomorrow and my unit number is {resident_unit_number} but am not sure about vehicle details, ignore it and just create a pass"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_015",
+        "turns": [
+          "Can you create a guest pass for tomorrow? vehicle details are Ford F-150 with plate DEF456"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_016",
+        "turns": [
+          "My friend is visiting tomorrow and needs parking and my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_017",
+        "turns": [
+          "I need a guest parking pass for next week and vehicle details are Toyota Camry with plate XYZ789 and my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_018",
+        "turns": [
+          "Can I get a guest pass for next month first Sunday?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_019",
+        "turns": [
+          "I need parking passes for next month from the 5th through the 10th and my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_020",
+        "turns": [
+          "Create a guest pass for this coming Friday for 3 vehicles and my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_021",
+        "turns": [
+          "I need guest parking for this weekend for 2 guests and my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_022",
+        "turns": [
+          "Can you help with parking for my guests this Saturday and Sunday? vehicle details are Ford F-150 with plate DEF456"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_023",
+        "turns": [
+          "How many parking spaces am I allowed?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_024",
+        "turns": [
+          "Is parking included in my rent?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_025",
+        "turns": [
+          "Can I reserve an additional parking space?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_026",
+        "turns": [
+          "Someone is parked in my assigned space"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_027",
+        "turns": [
+          "I want to register a vehicle tomorrow, how do I do that? my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      }
+    ],
+    "multi_turn": [
+      {
+        "test_case_id": "TC_PARKING_MT_001",
+        "turns": [
+          "I need a guest parking pass, can you create a pass for me?",
+          "Honda Accord, license plate DEF789"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_002",
+        "turns": [
+          "Create a guest pass for my 3 guests",
+          "vehicle details are Toyota Camry with plate ABC456, Honda Civic with plate DEF789, and Ford F-150 with plate GHI901"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_003",
+        "turns": [
+          "I need a guest parking pass for Nissan Altima",
+          "The plate is XYZ123"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_004",
+        "turns": [
+          "Guest parking pass for my guest car with license plate GHI901",
+          "It's a Ford F-150"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_005",
+        "turns": [
+          "Create a guest pass for Honda Civic plate ABC123 2020 model",
+          "Wait, the license plate is actually ABC124",
+          "Yes, Honda Civic ABC124 is correct"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_006",
+        "turns": [
+          "I need a parking pass for my friend's car It's a 2023 blue Toyota Camry SE trim with license plate QWE567",
+          "can this downloadable and send it to my friend?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_007",
+        "turns": [
+          "I am new here, how does guest parking work?",
+          "Can you create a pass for me?",
+          "Chevrolet Silverado 2022 model with license plate RTY890"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_008",
+        "turns": [
+          "Create a pass for Honda Civic plate ZXC234",
+          "How long is the pass valid?",
+          "Where should my guest park?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_009",
+        "turns": [
+          "I need a guest pass for next week",
+          "Okay, then for tomorrow",
+          "Tesla Model 3, license plate UIO456 and 2022 model"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_010",
+        "turns": [
+          "Can I get a guest parking pass from next month 5th through 10th?",
+          "want to talk to human regarding guest parking pass"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_011",
+        "turns": [
+          "I'm having 2 guests coming over tomorrow, can you create a pass for them?",
+          "First is Honda Civic ABC123 2020 model, license plate DEF789",
+          "Second is Toyota Camry DEF456 2022 model, license plate GHI789"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_012",
+        "turns": [
+          "My parents are visiting this weekend, Can I get passes for this Saturday and Sunday?",
+          "vehicle details are Ford F-150 plate JKL012"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_013",
+        "turns": [
+          "Where is guest parking located?",
+          "What are the hours?",
+          "Do I need to pay?",
+          "Can you send me the portal link?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_014",
+        "turns": [
+          "is there any guest parking available?",
+          "Can you create a pass for me?",
+          "Vehicle details are Toyota Camry with plate ABC456"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_015",
+        "turns": [
+          "car parking",
+          "Can you create a pass for me?",
+          "Vehicle details are Toyota Camry with plate ABC456"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_015",
+        "turns": [
+          "car stickers",
+          "Can you create a pass for me?",
+          "Vehicle details are Toyota Camry with plate ABC456"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_015",
+        "turns": [
+          "car pass",
+          "Can you create a pass for me?",
+          "Vehicle details are Toyota Camry with plate ABC456"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PARKING_MT_015",
+        "turns": [
+          "Stickers",
+          "Can you create a pass for me?",
+          "Vehicle details are Toyota Camry with plate ABC456"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}

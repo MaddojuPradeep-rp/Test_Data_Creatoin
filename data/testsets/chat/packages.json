@@ -1,0 +1,650 @@
+{
+  "intent": "packages",
+  "channel": "chat",
+  "total_test_cases": 64,
+  "single_turn_count": 48,
+  "multi_turn_count": 16,
+  "test_cases": {
+    "single_turn": [
+      {
+        "test_case_id": "TC_PACKAGES_001",
+        "turns": [
+          "How can I check to see if I have a package?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_002",
+        "turns": [
+          "How do I know if my package has arrived?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_003",
+        "turns": [
+          "How do I find out if a package has arrived for me?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_004",
+        "turns": [
+          "How do I track my packages being delivered in the community?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_005",
+        "turns": [
+          "Can you check the status of my package delivery?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_006",
+        "turns": [
+          "Do I have a package?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_007",
+        "turns": [
+          "Is there a package for me?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_008",
+        "turns": [
+          "Can you see if I have a package?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_009",
+        "turns": [
+          "Do I have any packages waiting for me?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_010",
+        "turns": [
+          "Can you check my package status?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_011",
+        "turns": [
+          "What packages are ready for pickup?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_012",
+        "turns": [
+          "Show me my pending package deliveries"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_013",
+        "turns": [
+          "Are there any packages in the mail room for me?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_014",
+        "turns": [
+          "When did my package arrive?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_015",
+        "turns": [
+          "What's the tracking number for my package?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_016",
+        "turns": [
+          "Can you give me the tracking number for package {package_name}?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_017",
+        "turns": [
+          "Can you send me the package portal link?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_018",
+        "turns": [
+          "I need the packages link"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_019",
+        "turns": [
+          "Where can I see my packages online?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_020",
+        "turns": [
+          "Can you send me the package detail link?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_021",
+        "turns": [
+          "I need the link to see my package details"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_022",
+        "turns": [
+          "Where can I view package {package_id} information?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_023",
+        "turns": [
+          "What station is my package at?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_024",
+        "turns": [
+          "Which locker has my package?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_025",
+        "turns": [
+          "Where exactly is my package located?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_026",
+        "turns": [
+          "What's the station location for package {package_id}?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_027",
+        "turns": [
+          "What type of package do I have?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_028",
+        "turns": [
+          "Is my package a letter or box?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_029",
+        "turns": [
+          "Can you tell me the package type for {package_id}?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_030",
+        "turns": [
+          "What kind of packages are waiting for me?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_031",
+        "turns": [
+          "Where can I pick up my packages?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_032",
+        "turns": [
+          "What are the package pickup hours?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_033",
+        "turns": [
+          "How long do packages stay in the mail room?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_034",
+        "turns": [
+          "Do I need ID to collect my package?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_035",
+        "turns": [
+          "Can someone else pick up my package for me?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_036",
+        "turns": [
+          "How will I know when a package arrives?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_037",
+        "turns": [
+          "Can I get text notifications for package deliveries?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_038",
+        "turns": [
+          "Why didn't I get notified about my package?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_039",
+        "turns": [
+          "How do I update my contact info for package alerts?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_040",
+        "turns": [
+          "What happens to unclaimed packages?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_041",
+        "turns": [
+          "Can you handle refrigerated package deliveries?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_042",
+        "turns": [
+          "What about oversized packages or furniture?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_043",
+        "turns": [
+          "My package was damaged during delivery, what should I do?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_044",
+        "turns": [
+          "Is there secure storage for valuable packages?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_045",
+        "turns": [
+          "Can packages be delivered directly to my apartment?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_046",
+        "turns": [
+          "I'm expecting a package but it's not showing up, what happened?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_047",
+        "turns": [
+          "How many packages can I have delivered at once?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_048",
+        "turns": [
+          "What delivery companies do you accept packages from?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      }
+    ],
+    "multi_turn": [
+      {
+        "test_case_id": "TC_PACKAGES_MT_001",
+        "turns": [
+          "Do I have any packages? Can you check for me?",
+          "When did it arrive?",
+          "Where can I pick it up?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_002",
+        "turns": [
+          "I'm expecting a package from Amazon",
+          "Has it arrived yet?",
+          "Do you have the tracking number? Can you send it to me?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_003",
+        "turns": [
+          "What packages do I have waiting?",
+          "What are the pickup hours?",
+          "Do I need to bring my ID?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_004",
+        "turns": [
+          "I have a package in the mail room",
+          "Can my roommate pick it up for me?",
+          "What does he need to bring?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_005",
+        "turns": [
+          "I didn't get notified about my package, why didn't I get notified?",
+          "Can you update my email address?",
+          "Will I get alerts for future packages?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_006",
+        "turns": [
+          "How many packages do I have?",
+          "Is one of them from Amazon?",
+          "Are they all ready for pickup?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_007",
+        "turns": [
+          "I'm expecting a package but it's not showing up",
+          "Can you check if it was delivered here?",
+          "What should I do if it's lost?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_008",
+        "turns": [
+          "I'm getting a large furniture delivery tomorrow, Do you accept oversized packages?",
+          "Where will it be stored?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_009",
+        "turns": [
+          "Do I have any packages from fedex?",
+          "any thing from amazon?Will I get notified when it arrives?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_010",
+        "turns": [
+          "When did my package arrive?",
+          "How long can I leave it there?",
+          "What happens if I don't pick it up in time?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_011",
+        "turns": [
+          "I want to set up package notifications",
+          "Can I get both email and text alerts?",
+          "How do I update my phone number?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_012",
+        "turns": [
+          "Can you see if I have any packages?",
+          "Is it from Amazon or Target or any other carrier?",
+          "When did they arrive?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_013",
+        "turns": [
+          "Do I have any packages?",
+          "Can you send me the package portal link?",
+          "Where are they located?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_014",
+        "turns": [
+          "What packages do I have waiting?",
+          "What station is package at?",
+          "Which locker number is it in?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_015",
+        "turns": [
+          "Check my packages please",
+          "What type is package 00585?",
+          "Can I get the detail link for it?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PACKAGES_MT_016",
+        "turns": [
+          "Do I have any packages from amazon/UPS/Fedex?",
+          "What's the station location?",
+          "What type of package is it?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "service_request": {
+    "slots": [
+      {"name": "issue_type", "type": "open_ended", "required": true, "prompt": "What type of service do you need? (e.g., plumbing, electrical, HVAC, appliance, structural)"},
+      {"name": "resident_unit_number", "type": "open_ended", "required": true, "prompt": "What is your unit number?"},
+      {"name": "location", "type": "open_ended", "required": true, "prompt": "Where in the unit is the issue?"},
+      {"name": "urgency", "type": "enumerated", "required": true, "options": ["emergency", "high", "normal"], "prompt": "Is this an emergency, high priority, or normal?"},
+      {"name": "access_perm", "type": "boolean", "required": true, "prompt": "Can maintenance enter your unit if you're not home?"},
+      {"name": "additional_details", "type": "open_ended", "required": false, "prompt": "Any additional details about the issue?"}
+    ],
+    "confirmation": "I'll submit a service request for {issue_type} in unit {resident_unit_number}. Correct?"
+  },
+  "payments": {
+    "slots": [
+      {"name": "payment_action", "type": "enumerated", "required": true, "options": ["balance_inquiry", "payment_method", "due_date", "late_fee", "charge_inquiry", "payment_confirmation", "payment_link"], "prompt": "What do you need help with regarding payments?"},
+      {"name": "resident_unit_number", "type": "open_ended", "required": true, "prompt": "What is your unit number?"},
+      {"name": "resident_birth_year", "type": "open_ended", "required": true, "prompt": "What is your birth year? (for identity verification)"},
+      {"name": "specific_question", "type": "open_ended", "required": false, "prompt": "Do you have a specific question about a charge or payment?"}
+    ],
+    "confirmation": "I'll look into your {payment_action} for unit {resident_unit_number}. Correct?"
+  },
+  "complaints": {
+    "slots": [
+      {"name": "complaint_type", "type": "enumerated", "required": true, "options": ["noise", "pet", "smoking", "parking", "property_condition", "other"], "prompt": "What is the nature of your complaint?"},
+      {"name": "source_location", "type": "open_ended", "required": true, "prompt": "Where is the issue occurring? (e.g., unit number, common area)"},
+      {"name": "neighbor_unit", "type": "open_ended", "required": false, "prompt": "Do you know which unit is causing the issue?"},
+      {"name": "date_time", "type": "open_ended", "required": false, "prompt": "When did this occur or when does it typically happen?"},
+      {"name": "previous_reports", "type": "boolean", "required": true, "prompt": "Have you reported this issue before?"}
+    ],
+    "confirmation": "I'll file a {complaint_type} complaint regarding the area near {source_location}. Correct?"
+  },
+  "parking": {
+    "slots": [
+      {"name": "parking_action", "type": "enumerated", "required": true, "options": ["guest_pass", "parking_info", "violation_report", "vehicle_registration"], "prompt": "What do you need help with regarding parking?"},
+      {"name": "vehicle_make", "type": "open_ended", "required": true, "prompt": "What is the vehicle make and model?"},
+      {"name": "license_plate", "type": "open_ended", "required": true, "prompt": "What is the license plate number?"},
+      {"name": "resident_unit_number", "type": "open_ended", "required": true, "prompt": "What is your unit number?"},
+      {"name": "parking_date", "type": "open_ended", "required": false, "prompt": "What date(s) do you need the parking pass for?"},
+      {"name": "num_vehicles", "type": "open_ended", "required": false, "prompt": "How many vehicles need passes?"}
+    ],
+    "confirmation": "I'll create a guest parking pass for {vehicle_make} plate {license_plate} for unit {resident_unit_number}. Correct?"
+  },
+  "packages": {
+    "slots": [
+      {"name": "package_action", "type": "enumerated", "required": true, "options": ["check_status", "tracking_info", "portal_link", "location", "pickup_info", "missing_package", "package_type"], "prompt": "What do you need help with regarding your package?"},
+      {"name": "package_id", "type": "open_ended", "required": false, "prompt": "Do you have a package ID or tracking number?"},
+      {"name": "carrier", "type": "open_ended", "required": false, "prompt": "Which carrier delivered the package?"},
+      {"name": "delivery_date", "type": "open_ended", "required": false, "prompt": "When was the package delivered or expected?"}
+    ],
+    "confirmation": "I'll help you with {package_action} for your package. Correct?"
+  },
+  "events": {
+    "slots": [
+      {"name": "event_action", "type": "enumerated", "required": true, "options": ["list_events", "event_details", "register", "cancel_registration", "guest_policy"], "prompt": "What would you like to do regarding events?"},
+      {"name": "event_name", "type": "open_ended", "required": false, "prompt": "Which event are you interested in?"},
+      {"name": "num_guests", "type": "open_ended", "required": false, "prompt": "How many guests will you be bringing?"},
+      {"name": "date", "type": "open_ended", "required": false, "prompt": "What date are you looking at?"}
+    ],
+    "confirmation": "I'll {event_action} for the {event_name} event. Correct?"
+  },
+  "fair_housing": {
+    "slots": [
+      {"name": "concern_type", "type": "open_ended", "required": true, "prompt": "Can you describe your concern?"},
+      {"name": "description", "type": "open_ended", "required": true, "prompt": "Can you provide more details about the situation?"},
+      {"name": "date_of_incident", "type": "open_ended", "required": false, "prompt": "When did this occur?"},
+      {"name": "parties_involved", "type": "open_ended", "required": false, "prompt": "Who was involved?"}
+    ],
+    "confirmation": "I'll escalate this fair housing concern to our management team. Correct?"
+  },
+  "handoff": {
+    "slots": [
+      {"name": "reason", "type": "open_ended", "required": true, "prompt": "What do you need help with that requires a staff member?"},
+      {"name": "preferred_contact", "type": "enumerated", "required": false, "options": ["phone", "email", "in_person", "chat"], "prompt": "How would you prefer to be contacted?"},
+      {"name": "availability", "type": "open_ended", "required": false, "prompt": "When are you available?"}
+    ],
+    "confirmation": "I'll connect you with a staff member regarding {reason}. Correct?"
+  },
+  "language_support": {
+    "slots": [
+      {"name": "preferred_language", "type": "enumerated", "required": true, "options": ["es", "zh", "vi"], "prompt": "What language do you prefer? (Spanish, Chinese, Vietnamese)"},
+      {"name": "original_request", "type": "open_ended", "required": false, "prompt": "What did you need help with?"}
+    ],
+    "confirmation": "I'll assist you in {preferred_language}. Correct?"
+  },
+  "prompt_injection": {
+    "slots": [
+      {"name": "response", "type": "open_ended", "required": true, "prompt": "I'm here to help with property management questions. How can I assist you today?"}
+    ],
+    "confirmation": null
+  },
+  "property_info": {
+    "slots": [
+      {"name": "info_type", "type": "enumerated", "required": true, "options": ["amenities", "pool", "office_hours", "quiet_hours", "pet_policy", "trash", "security", "unit_features", "lease", "parking_towing"], "prompt": "What property information are you looking for?"},
+      {"name": "amenity_name", "type": "open_ended", "required": false, "prompt": "Which specific amenity are you asking about?"},
+      {"name": "specific_question", "type": "open_ended", "required": false, "prompt": "Do you have a specific question?"}
+    ],
+    "confirmation": "I'll look up {info_type} information for you. Correct?"
+  },
+  "self_service": {
+    "slots": [
+      {"name": "issue_category", "type": "enumerated", "required": true, "options": ["thermostat", "circuit_breaker", "water_shutoff", "garbage_disposal", "air_filter", "smoke_detector", "wifi", "access_fob"], "prompt": "What are you trying to troubleshoot?"},
+      {"name": "symptom", "type": "open_ended", "required": true, "prompt": "Can you describe what's happening?"},
+      {"name": "steps_tried", "type": "open_ended", "required": false, "prompt": "Have you already tried anything to fix it?"}
+    ],
+    "confirmation": "I'll walk you through troubleshooting your {issue_category}. Ready to start?"
+  }
+}

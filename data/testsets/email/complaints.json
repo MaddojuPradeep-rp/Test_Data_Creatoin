@@ -1,0 +1,317 @@
+{
+  "intent": "complaints",
+  "channel": "Email",
+  "total_test_cases": 31,
+  "single_turn_count": 24,
+  "multi_turn_count": 7,
+  "test_cases": {
+    "single_turn": [
+      {
+        "test_case_id": "TC_COMPLAINT_001",
+        "turns": [
+          "I have a complaint"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_002",
+        "turns": [
+          "Where do I submit a complaint?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_003",
+        "turns": [
+          "Who do I contact to make a complaint?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_004",
+        "turns": [
+          "Can I file a complaint online?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_005",
+        "turns": [
+          "How do I file a complaint about my neighbor?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_006",
+        "turns": [
+          "My neighbor is being very loud"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_007",
+        "turns": [
+          "I need to file a noise complaint"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_008",
+        "turns": [
+          "My neighbor is very noisy at night and it's keeping me awake"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_009",
+        "turns": [
+          "There's a lot of loud music coming from my neighbor's apartment"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_010",
+        "turns": [
+          "I want to file a complaint on my neighbor's loud music"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_011",
+        "turns": [
+          "My neighbor's dog barks all day when they're at work"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_012",
+        "turns": [
+          "I have a complaint about my neighbor's pet"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_013",
+        "turns": [
+          "My neighbor is smoking and the smell is coming into my apartment"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_014",
+        "turns": [
+          "I smell cigarette smoke in my unit from a neighbor"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_015",
+        "turns": [
+          "Someone keeps parking in my assigned parking spot"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_016",
+        "turns": [
+          "I need to complain about a parking violation"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_017",
+        "turns": [
+          "The hallways haven't been cleaned in weeks"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_018",
+        "turns": [
+          "The trash room on my floor is always a mess"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_019",
+        "turns": [
+          "I filed a complaint last week, what's the status?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_020",
+        "turns": [
+          "Can you check on my complaint?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_021",
+        "turns": [
+          "What's the status of my complaint?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_022",
+        "turns": [
+          "Is there a courtesy officer in the community?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_023",
+        "turns": [
+          "How do I get in touch with a courtesy officer?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_024",
+        "turns": [
+          "Can the courtesy officer talk to my neighbor about noise?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      }
+    ],
+    "multi_turn": [
+      {
+        "test_case_id": "TC_COMPLAINT_MT_001",
+        "turns": [
+          "My neighbor is being very loud, This has been going on every night this week",
+          "Can you create a complaint?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_MT_003",
+        "turns": [
+          "My neighbor's dog barks all day, And they're also blocking the hallway with their stuff",
+          "Can you raise a complaint?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_MT_004",
+        "turns": [
+          "I filed a noise complaint last week, What's being done about it?",
+          "The problem is still happening every night"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_MT_005",
+        "turns": [
+          "Someone keeps parking in my assigned spot",
+          "It's a red Honda, AHJ123, happened three times this week",
+          "Can you create a complaint?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_MT_007",
+        "turns": [
+          "The trash room on my floor is always a mess? When does it get cleaned?",
+          "Can you enforce the rules about bagging trash?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_MT_009",
+        "turns": [
+          "I've filed complaints about my neighbor's loud parties before",
+          "Nothing has changed",
+          "What else can be done?",
+          "Can I speak with management?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_MT_010",
+        "turns": [
+          "I want to file a complaint on my neighbor's loud music",
+          "Making noise until 2 AM",
+          "How do I get in touch with a courtesy officer?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}

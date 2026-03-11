@@ -1,0 +1,763 @@
+{
+  "intent": "handoff",
+  "channel": "chat",
+  "total_test_cases": 66,
+  "single_turn_count": 23,
+  "multi_turn_count": 43,
+  "test_cases": {
+    "single_turn": [
+      {
+        "test_case_id": "TC_HANDOFF_001",
+        "turns": [
+          "I would like to speak to an agent"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_002",
+        "turns": [
+          "Can you connect me to an agent?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_003",
+        "turns": [
+          "I would like to chat with real person"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_004",
+        "turns": [
+          "Can you connect me to a real person?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_005",
+        "turns": [
+          "I need to talk to someone from the office"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_006",
+        "turns": [
+          "Can I speak with a staff member?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_007",
+        "turns": [
+          "Transfer me to a human"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_008",
+        "turns": [
+          "I want to talk to the property manager"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_009",
+        "turns": [
+          "I'd like to request a waiver for a late fee"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_010",
+        "turns": [
+          "I can't log into my account—it says my password is wrong"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_011",
+        "turns": [
+          "I returned an item but haven't received my refund"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_012",
+        "turns": [
+          "I see a charge I don't recognize on my statement"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_013",
+        "turns": [
+          "The app keeps crashing when I try to upload a file"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_014",
+        "turns": [
+          "My order shows as delivered, but I never received it"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_015",
+        "turns": [
+          "Can you waive my late fees?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_016",
+        "turns": [
+          "I need to dispute a charge on my account"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_017",
+        "turns": [
+          "I need help with lease renewal negotiations"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_018",
+        "turns": [
+          "I have a legal question about my lease"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_019",
+        "turns": [
+          "I need to discuss a serious issue with management"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_020",
+        "turns": [
+          "Can I speak to someone about breaking my lease early?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_021",
+        "turns": [
+          "This isn't helpful, I need a real person"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_022",
+        "turns": [
+          "I'm not getting answers I need, connect me to staff"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_023",
+        "turns": [
+          "This chatbot can't help me, I need a human"
+        ],
+        "reference_output": [
+          ""
+        ]
+      }
+    ],
+    "multi_turn": [
+      {
+        "test_case_id": "TC_HANDOFF_MT_001",
+        "turns": [
+          "I need to speak with someone from the office",
+          "I want to discuss my late fees and get them waived"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_002",
+        "turns": [
+          "Can you connect me to a real person?",
+          "I have a billing issue that needs to be resolved"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_003",
+        "turns": [
+          "I want to talk to an agent",
+          "I need help with my lease renewal"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_004",
+        "turns": [
+          "I need to speak with property management",
+          "I have a serious complaint about discrimination",
+          "This is urgent and I need to speak with someone now"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_005",
+        "turns": [
+          "Can you waive my late fee?",
+          "I was in the hospital and couldn't pay on time",
+          "I need to speak with someone who can approve this"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_006",
+        "turns": [
+          "I can't log into my account",
+          "I've tried resetting my password but it's not working",
+          "Can someone from IT help me?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_007",
+        "turns": [
+          "I see a charge on my account I don't recognize",
+          "It's for $150 labeled as 'admin fee'",
+          "I need to talk to person about this"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_008",
+        "turns": [
+          "I need to break my lease early",
+          "I'm moving for a job relocation",
+          "Connect me to a representative"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_009",
+        "turns": [
+          "My AC has been broken for 3 weeks",
+          "I've submitted multiple work orders but no one has come",
+          "I need to escalate this to a manager"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_010",
+        "turns": [
+          "I filed a complaint about my neighbor",
+          "Nothing has been done for 2 weeks",
+          "I need to speak with management about this"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_011",
+        "turns": [
+          "I'm having financial difficulties",
+          "Can I set up a payment plan for my rent?",
+          "Who do I need to speak with about this?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_012",
+        "turns": [
+          "I need to request a reasonable accommodation",
+          "I have a disability and need modifications to my unit",
+          "Who handles accommodation requests?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_013",
+        "turns": [
+          "I have a serious security concern",
+          "Someone has been trying to get into the building",
+          "I need to report this to management immediately"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_014",
+        "turns": [
+          "My rent increased by 20%",
+          "This seems excessive and I want to discuss it",
+          "Can I speak with the property manager?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_015",
+        "turns": [
+          "I'm moving out next month",
+          "I have questions about the move-out inspection",
+          "Can someone walk me through the process?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_016",
+        "turns": [
+          "I want to speak with someone from billing department",
+          "Yes, I need to discuss my late fee"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_017",
+        "turns": [
+          "Connect me to a staff member",
+          "Sure, I have a billing question"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_018",
+        "turns": [
+          "I need to talk to someone from the office",
+          "Yes, please. I need help with my lease renewal"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_019",
+        "turns": [
+          "Can you transfer me to an agent?",
+          "Yes"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_020",
+        "turns": [
+          "I'd like to speak with property management",
+          "Of course, it's about a maintenance issue that hasn't been resolved"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_021",
+        "turns": [
+          "Transfer me to a real person",
+          "Absolutely, I need to discuss payment options"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_022",
+        "turns": [
+          "I want to talk to someone",
+          "No, never mind. I figured it out"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_023",
+        "turns": [
+          "Connect me to a staff member",
+          "Actually, I don't need help anymore"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_024",
+        "turns": [
+          "Can you transfer me to an agent?",
+          "No thanks, I'll figure it out myself"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_025",
+        "turns": [
+          "I need to speak with management",
+          "Cancel that request, I don't need it"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_026",
+        "turns": [
+          "Transfer me to a real person",
+          "Wait, no. I'll try one more thing first"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_027",
+        "turns": [
+          "I want to speak with someone",
+          "Yes, please connect me"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_028",
+        "turns": [
+          "Can you connect me to an agent?",
+          "I just need to talk to someone"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_029",
+        "turns": [
+          "I need to talk to property management",
+          "It's a personal matter"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_030",
+        "turns": [
+          "I want to speak with someone",
+          "Yes, I need to discuss my balance",
+          "It's higher than expected and I need clarification",
+          "Please connect me"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_031",
+        "turns": [
+          "Can I speak with a staff member?",
+          "I need to request a late fee waiver",
+          "I was hospitalized and couldn't pay on time",
+          "Yes, transfer me please"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_032",
+        "turns": [
+          "Connect me to property management",
+          "My AC has been broken for weeks",
+          "Multiple work orders submitted but no one came",
+          "I need a manager to handle this"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_033",
+        "turns": [
+          "I need to talk to someone",
+          "I have a legal question about my lease",
+          "It's about early termination clauses",
+          "Yes, connect me to the right person"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_034",
+        "turns": [
+          "Transfer me to a staff member",
+          "I want to file a complaint",
+          "It's about noise from my neighbor",
+          "I need to speak with management about this"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_035",
+        "turns": [
+          "Can you connect me to an agent?",
+          "I need to set up a payment plan",
+          "I'm having financial difficulties this month",
+          "Yes, please transfer me"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_036",
+        "turns": [
+          "I want to speak with someone",
+          "Actually, wait. Let me try something first",
+          "No, I still need to speak with someone",
+          "About my balance issue"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_037",
+        "turns": [
+          "Connect me to a staff member",
+          "I need help with billing",
+          "Can you hurry up and transfer me?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_038",
+        "turns": [
+          "What's my balance?",
+          "That's not working. Connect me to someone",
+          "Yes, I need to discuss my charges"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_039",
+        "turns": [
+          "I want to talk to someone",
+          "Maybe, I'm not sure if you can help",
+          "It's about my rent increase"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_040",
+        "turns": [
+          "I need to check my balance and speak with someone",
+          "The balance can wait, connect me to staff first",
+          "I have a billing dispute"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_041",
+        "turns": [
+          "Connect me to a staff member",
+          "I need help with my lease",
+          "Thank you for transferring me"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_042",
+        "turns": [
+          "I want to speak with someone",
+          "Yes, about late fees",
+          "How long will it take?",
+          "Okay, I'll wait"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_HANDOFF_MT_043",
+        "turns": [
+          "Transfer me to property management",
+          "I need to discuss my move-out",
+          "Will they call me or should I wait online?",
+          "Got it, thanks"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "intent": "self_service",
+  "channel": "chat",
+  "total_test_cases": 37,
+  "single_turn_count": 27,
+  "multi_turn_count": 10,
+  "test_cases": {
+    "single_turn": [
+      {
+        "test_case_id": "TC_SELFHELP_001",
+        "turns": [
+          "How do I adjust the thermostat?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_002",
+        "turns": [
+          "My thermostat isn't responding, what should I try?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_003",
+        "turns": [
+          "How do I change the temperature in my unit?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_004",
+        "turns": [
+          "The AC isn't cooling - what can I check?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_005",
+        "turns": [
+          "Where is the circuit breaker?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_006",
+        "turns": [
+          "How do I reset the circuit breaker?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_007",
+        "turns": [
+          "My power went out, what should I check first?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_008",
+        "turns": [
+          "Can I reset the breaker myself?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_009",
+        "turns": [
+          "How do I turn off the water to my unit?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_010",
+        "turns": [
+          "Where is the water shut-off valve?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_011",
+        "turns": [
+          "My toilet won't stop running - what can I do?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_012",
+        "turns": [
+          "How do I unclog a drain?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_013",
+        "turns": [
+          "How do I reset the garbage disposal?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_014",
+        "turns": [
+          "The garbage disposal is jammed - what should I try?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_015",
+        "turns": [
+          "How do I change the air filter?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_016",
+        "turns": [
+          "Where is the air filter located?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_017",
+        "turns": [
+          "My smoke detector keeps beeping - how do I fix it?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_018",
+        "turns": [
+          "How do I change the smoke detector battery?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_019",
+        "turns": [
+          "Can I replace the smoke detector battery myself?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_020",
+        "turns": [
+          "My WiFi isn't working - what should I try?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_021",
+        "turns": [
+          "How do I reset the router?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_022",
+        "turns": [
+          "Where is the router located in my unit?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_023",
+        "turns": [
+          "How do I program my access fob?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_024",
+        "turns": [
+          "My key fob isn't working - what should I try?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_025",
+        "turns": [
+          "How do I reset my access code?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_026",
+        "turns": [
+          "Can you walk me through troubleshooting my AC?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_027",
+        "turns": [
+          "What should I check before submitting a maintenance request?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      }
+    ],
+    "multi_turn": [
+      {
+        "test_case_id": "TC_SELFHELP_MT_001",
+        "turns": [
+          "My AC isn't working, he thermostat shows 78 but it's set to 70, What should I check?Okay, I checked the circuit breaker and it's fine",
+          "What else could it be?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_MT_002",
+        "turns": [
+          "The power went out in my bathroom",
+          "Where is the circuit breaker?",
+          "Okay, I found it. How do I reset it?",
+          "That worked! Thank you"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_MT_003",
+        "turns": [
+          "My garbage disposal stopped working",
+          "It's making a humming sound but not grinding",
+          "How do I reset it?",
+          "Where is the reset button?",
+          "That fixed it, thanks!"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_MT_004",
+        "turns": [
+          "My smoke detector keeps beeping",
+          "It's beeping every 30 seconds or so",
+          "How do I change the battery?",
+          "I changed the battery but it's still beeping",
+          "Should I submit a maintenance request?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_MT_005",
+        "turns": [
+          "My internet isn't working",
+          "All the lights on the router are on",
+          "Should I reset it?",
+          "How do I reset the router?",
+          "That worked, thanks!"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_MT_006",
+        "turns": [
+          "My toilet won't stop running",
+          "I jiggled the handle but it's still running",
+          "What else can I try?",
+          "Where is the water shut-off valve?",
+          "Should I turn off the water and call maintenance?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_MT_007",
+        "turns": [
+          "How often should I change the air filter?",
+          "Where is it located?",
+          "Can I do it myself or do I need maintenance?",
+          "How do I remove the old one?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_MT_008",
+        "turns": [
+          "My circuit breaker keeps tripping, I reset it but it trips again immediately, What could be causing this?",
+          "Should I submit a maintenance request?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_MT_009",
+        "turns": [
+          "My kitchen sink is draining slowly",
+          "Can I use drain cleaner?",
+          "What should I try first?",
+          "I tried a plunger but it didn't help",
+          "Okay, I'll submit a maintenance request"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SELFHELP_MT_010",
+        "turns": [
+          "My key fob isn't opening the door",
+          "I tried holding it closer but nothing happens",
+          "Could the battery be dead?",
+          "How do I get a replacement?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}

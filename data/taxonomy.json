@@ -1,0 +1,133 @@
+{
+  "intents": [
+    "service_request",
+    "payments",
+    "complaints",
+    "parking",
+    "packages",
+    "events",
+    "fair_housing",
+    "handoff",
+    "language_support",
+    "prompt_injection",
+    "property_info",
+    "self_service"
+  ],
+  "domains": [
+    "service_request",
+    "payments",
+    "complaints",
+    "parking",
+    "packages",
+    "events",
+    "fair_housing",
+    "handoff",
+    "language_support",
+    "prompt_injection",
+    "property_info",
+    "self_service"
+  ],
+  "sub_intents": {
+    "service_request": [
+      "create_service_request", "service_request_status", "service_request_portal",
+      "plumbing", "electrical", "hvac", "appliance_repair", "structural",
+      "pest_control", "lock_change", "emergency_maintenance"
+    ],
+    "payments": [
+      "balance_inquiry", "payment_breakdown", "rent_amount", "payment_methods",
+      "payment_confirmation", "due_date", "late_fee_info", "late_fee_waiver",
+      "charge_inquiry", "payment_portal_link", "lease_info", "unit_info", "move_in_out"
+    ],
+    "complaints": [
+      "noise_complaint", "pet_complaint", "smoking_complaint", "parking_complaint",
+      "property_condition", "complaint_status", "general_complaint"
+    ],
+    "parking": [
+      "guest_parking_info", "guest_pass_creation", "parking_policy",
+      "parking_violation", "vehicle_registration", "resident_parking_info"
+    ],
+    "packages": [
+      "package_status", "package_tracking", "package_portal_link",
+      "package_location", "package_type", "package_pickup",
+      "package_retention", "package_missing", "package_authorization",
+      "package_notification"
+    ],
+    "events": [
+      "event_listing", "event_details", "event_registration",
+      "event_cancellation", "event_guest_policy", "event_cost"
+    ],
+    "fair_housing": [
+      "race_ethnicity", "familial_status", "disability",
+      "sex_gender", "age", "religion", "national_origin",
+      "sexual_orientation", "marital_status", "source_of_income",
+      "immigration_status"
+    ],
+    "handoff": [
+      "transfer_to_agent", "callback_request", "escalation",
+      "frustration_escalation", "account_issues", "lease_questions",
+      "dispute_charges"
+    ],
+    "language_support": [
+      "spanish_support", "chinese_support", "vietnamese_support"
+    ],
+    "prompt_injection": [
+      "role_override", "system_prompt_extraction", "data_extraction",
+      "authority_impersonation", "encoded_injection", "sql_injection",
+      "emotional_manipulation", "harmful_content", "output_manipulation"
+    ],
+    "property_info": [
+      "amenities_info", "pool_info", "office_hours", "quiet_hours",
+      "pet_policy", "trash_info", "security", "unit_features",
+      "lease_info", "parking_towing"
+    ],
+    "self_service": [
+      "thermostat_troubleshoot", "circuit_breaker", "water_shutoff",
+      "garbage_disposal", "air_filter", "smoke_detector",
+      "wifi_troubleshoot", "access_fob", "pre_maintenance_checks"
+    ]
+  },
+  "entities": {
+    "resident_unit_number": {"type": "string", "description": "Resident's apartment/unit number"},
+    "resident_birth_year": {"type": "string", "description": "Resident's birth year for identity verification"},
+    "building": {"type": "string", "description": "Building name or number"},
+    "date": {"type": "string", "format": "ISO-8601", "description": "Date reference"},
+    "amount": {"type": "number", "description": "Monetary amount"},
+    "issue_type": {"type": "string", "description": "Type of maintenance or service issue"},
+    "location": {"type": "string", "description": "Location within the unit or property"},
+    "urgency": {"type": "string", "enum": ["emergency", "high", "normal", "low"]},
+    "person_name": {"type": "string", "description": "Person's name"},
+    "phone": {"type": "string", "description": "Phone number"},
+    "email": {"type": "string", "description": "Email address"},
+    "vehicle_make": {"type": "string", "description": "Vehicle manufacturer (e.g., Honda, Toyota)"},
+    "vehicle_model": {"type": "string", "description": "Vehicle model (e.g., Civic, Camry)"},
+    "license_plate": {"type": "string", "description": "Vehicle license plate number"},
+    "vehicle_year": {"type": "string", "description": "Vehicle model year"},
+    "num_vehicles": {"type": "integer", "description": "Number of guest vehicles"},
+    "spot_number": {"type": "string", "description": "Parking spot number"},
+    "parking_date": {"type": "string", "format": "ISO-8601", "description": "Date for guest parking pass"},
+    "package_id": {"type": "string", "description": "Package identifier"},
+    "tracking_number": {"type": "string", "description": "Carrier tracking number"},
+    "carrier": {"type": "string", "description": "Package carrier (UPS, FedEx, USPS, Amazon)"},
+    "event_name": {"type": "string", "description": "Name of community event"},
+    "num_guests": {"type": "integer", "description": "Number of guests for event or parking"},
+    "complaint_type": {"type": "string", "description": "Category of complaint (noise, pet, smoking, parking)"},
+    "neighbor_unit": {"type": "string", "description": "Neighbor's unit number (in complaint context)"},
+    "charge_type": {"type": "string", "description": "Type of financial charge (late_fee, admin_fee, billing_fee)"},
+    "amenity_name": {"type": "string", "description": "Name of property amenity (pool, gym, clubhouse)"},
+    "pet_info": {"type": "string", "description": "Pet type/breed"},
+    "language": {"type": "string", "description": "Preferred language (ISO 639-1: es, zh, vi)"},
+    "symptom_description": {"type": "string", "description": "Description of issue symptom for self-service troubleshooting"}
+  },
+  "flags": [
+    "multi_intent",
+    "policy",
+    "agent_failure",
+    "code_switching",
+    "ambiguous",
+    "typo",
+    "identity_verification",
+    "harmful_content"
+  ],
+  "sentiment_values": ["positive", "neutral", "negative"],
+  "urgency_values": ["low", "medium", "high"]
+}

@@ -1,0 +1,480 @@
+{
+  "intent": "events",
+  "channel": "Email",
+  "total_test_cases": 46,
+  "single_turn_count": 32,
+  "multi_turn_count": 14,
+  "test_cases": {
+    "single_turn": [
+      {
+        "test_case_id": "TC_EVENTS_001",
+        "turns": [
+          "Is there a calendar of upcoming community events?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_002",
+        "turns": [
+          "What activities are there for residents?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_004",
+        "turns": [
+          "What community events are happening?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_006",
+        "turns": [
+          "What events are planned for the community this month?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_009",
+        "turns": [
+          "Can you show me details about the {event_name} event"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_010",
+        "turns": [
+          "What time does the {event_name} event start?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_011",
+        "turns": [
+          "How much does it cost to attend the {event_name} event"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_012",
+        "turns": [
+          "Can I bring guests to {event_name} events?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_013",
+        "turns": [
+          "How do I sign up for the {event_name} event?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_014",
+        "turns": [
+          "Are there any free {event_name} events coming up?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_015",
+        "turns": [
+          "What events am I already registered for?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_016",
+        "turns": [
+          "Can I cancel my registration for the {registered_event_name} event?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_017",
+        "turns": [
+          "Is the {event_name} event still accepting signups?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_018",
+        "turns": [
+          "What's the maximum number of guests I can bring to the {event_name} event?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_020",
+        "turns": [
+          "When is the next {event_name} event?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_021",
+        "turns": [
+          "Are there any kid-friendly events coming up?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_022",
+        "turns": [
+          "Do I need to pay in advance for paid events?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_023",
+        "turns": [
+          "Can you register me for the {event_name} event?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_025",
+        "turns": [
+          "Can I sign up for {event_name} with 2 guests?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_026",
+        "turns": [
+          "Register me and my 3 guests for the {event_name} event"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_027",
+        "turns": [
+          "I'd like to attend {event_name} with my family of 4"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_028",
+        "turns": [
+          "Sign me up for {event_name}, just me no guests"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_029",
+        "turns": [
+          "Where are the {event_name} events being held?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_030",
+        "turns": [
+          "How can I get notified about new community events?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_031",
+        "turns": [
+          "What's the dress code for the {event_name} event?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_032",
+        "turns": [
+          "Can I see a list of all events I've attended this year?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_033",
+        "turns": [
+          "Is there a waiting list for the {event_name} event?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_034",
+        "turns": [
+          "What amenities will be available at the {event_name} event?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_035",
+        "turns": [
+          "Can I modify my guest count for the {event_name} event?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_036",
+        "turns": [
+          "Are pets allowed at the {event_name} event?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_037",
+        "turns": [
+          "What should I bring to the {event_name} event?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_038",
+        "turns": [
+          "How long does the {event_name} event typically last?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      }
+    ],
+    "multi_turn": [
+      {
+        "test_case_id": "TC_EVENTS_MT_001",
+        "turns": [
+          "What community events are coming up?",
+          "Can I register for {event_name} event?",
+          "how can i pay for the event?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_MT_002",
+        "turns": [
+          "Is there a {event_name} event?",
+          "I'd like to sign up for two guests along with me"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_MT_003",
+        "turns": [
+          "Is there a {event_name} event coming up?",
+          "What time does it start?",
+          "Where is it being held?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_MT_004",
+        "turns": [
+          "Tell me about event {event_name}",
+          "How much does it cost?",
+          "Do I pay at the event or in advance?",
+          "yes, send me the payment link"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_MT_005",
+        "turns": [
+          "I'm interested in {event_name} event",
+          "What should I bring?Is there a dress code?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_MT_006",
+        "turns": [
+          "Can you show me what events I'm registered for?",
+          "When is the {registered_event_name} event?",
+          "How many guests I registered for the event?",
+          "Can I modify my registration?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_MT_007",
+        "turns": [
+          "I need to cancel my registration for the {registered_event_name} event",
+          "Are there any other {event_name} events this month?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_MT_008",
+        "turns": [
+          "I'm interested in fitness and wellness activities, What events do you have coming up?",
+          "Can I sign up for the {event_name} event?, How much does it cost?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_MT_009",
+        "turns": [
+          "What events are coming up?",
+          "Tell me more about the {event_name} event",
+          "What time does it start?",
+          "Okay, I'd like to register, how can i pay for the event?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_MT_010",
+        "turns": [
+          "I heard about a {event_name} event, Is it sold out?",
+          "How will I know if a spot opens up for the {event_name} event?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_MT_011",
+        "turns": [
+          "What events are available this month?",
+          "Can I sign up for multiple events?",
+          "I'd like to register for all the events?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_MT_012",
+        "turns": [
+          "I want to attend the {event_name} event",
+          "Can I bring guests?",
+          "How many guests am I allowed?",
+          "I'd like to register for myself and 2 guests"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_MT_013",
+        "turns": [
+          "I'm registered for the {registered_event_name} event",
+          "Can I change my guest count?",
+          "I need to change from 2 guests to 3 guests",
+          "Is that updated now?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_EVENTS_MT_014",
+        "turns": [
+          "I keep missing community events, How can I get notified when new events are posted?",
+          "Will I get any reminders for events I register for?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+openai:
+  api_key_env: OPENAI_API_KEY
+  embedding_model: text-embedding-3-small
+  chat_model: gpt-4o-mini
+
+paths:
+  testset: data/testsets
+  conversations: data/conversations/     # drop .html reports and .txt logs here
+  taxonomy: data/taxonomy.json
+  slot_policies: data/slot_policies.json
+
+embedding:
+  use_large: false
+  faiss_nlist: 100
+
+similarity:
+  top_k: 5
+  threshold_small: 0.70
+  threshold_large: 0.70
+  dedup_threshold: 0.90
+
+novelty:
+  # --- Mode: "conservative" or "exploration" ---
+  # Conservative = strict filtering, higher threshold, fewer results
+  # Exploration  = broader coverage, lower threshold, impact overrides, more results
+  mode: conservative
+  # Exploration mode threshold (broader)
+  keep_min_novelty: 0.45
+  keep_min_impact: 0.20
+  # Additional gate: impact override requires at least this novelty (exploration mode)
+  impact_override_min_novelty: 0.30
+  # Conservative mode threshold (strict)
+  exploration_min_novelty: 0.50
+  # Blended novelty: novelty = max_weight*(1 - max_sim) + avg_weight*(1 - avg_sim)
+  novelty_max_weight: 0.6
+  novelty_avg_weight: 0.4
+  # Paraphrase rejection: reject if same intent+entities+structure AND novelty < this
+  paraphrase_novelty_ceiling: 0.50
+  # Combo bypass: keep unseen intent+channel or NEW_* intents above this floor
+  combo_bypass_min_novelty: 0.25
+  # Conservative mode uses a higher combo-bypass floor to differentiate from exploration
+  conservative_combo_bypass_min_novelty: 0.35
+  # Conservative impact override: high-impact suggestions with novelty above this floor
+  # are kept even if they don't meet the strict threshold (requires impact >= 0.30)
+  conservative_impact_override_min_novelty: 0.42
+
+scoring:
+  impact_policy: 0.2
+  impact_failure: 0.2
+  impact_new_entity_combo: 0.1
+  impact_language_variant: 0.1
+  # Combinatorial novelty bonuses
+  impact_new_pair: 0.15
+  impact_new_triple: 0.25
+  # Constraint density bonus (cases with >= this many constraints get a bump)
+  constraint_density_threshold: 4
+  impact_constraint_density: 0.15
+
+# Multi-turn structural pattern detection
+multi_turn:
+  detect_escalation: true
+  detect_agent_reversal: true
+  detect_user_restatement: true
+  detect_state_change: true
+
+# Test type distribution for generated test cases
+# policy_flow: clean slot-following conversation (happy path)
+# edge_case:   incomplete/vague/wrong answers, user corrections
+# stress:      off-topic, multi-intent, emotional/frustrated users
+test_types:
+  policy_flow: 0.70
+  edge_case: 0.20
+  stress: 0.10

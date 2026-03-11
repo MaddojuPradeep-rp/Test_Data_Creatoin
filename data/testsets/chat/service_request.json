@@ -1,0 +1,674 @@
+{
+  "intent": "service_request",
+  "channel": "chat",
+  "total_test_cases": 67,
+  "single_turn_count": 49,
+  "multi_turn_count": 18,
+  "test_cases": {
+    "single_turn": [
+      {
+        "test_case_id": "TC_SERVICE_001",
+        "turns": [
+          "How do I submit a service request?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_002",
+        "turns": [
+          "I need a work order for my bathroom light flickering, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_003",
+        "turns": [
+          "I need to report a maintenance issue for gas leak, my unit number is {resident_unit_number}, create a service request?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_004",
+        "turns": [
+          "Can you help me submit a maintenance request for my AC not working, my unit number is {resident_unit_number}?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_005",
+        "turns": [
+          "My kitchen faucet is leaking"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_006",
+        "turns": [
+          "The toilet in my bathroom is running constantly, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_007",
+        "turns": [
+          "There's a leak under my sink Create service request, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_008",
+        "turns": [
+          "My shower drain is clogged, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_009",
+        "turns": [
+          "There's no hot water in my apartment, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_010",
+        "turns": [
+          "My air conditioning isn't working, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_011",
+        "turns": [
+          "The heater in my unit is broken, can you create service request?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_012",
+        "turns": [
+          "My AC is making a loud noise, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_013",
+        "turns": [
+          "The thermostat isn't responding, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_014",
+        "turns": [
+          "A light bulb needs replacing in the hallway, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_015",
+        "turns": [
+          "My bathroom light is flickering, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_016",
+        "turns": [
+          "One of my outlets stopped working, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_017",
+        "turns": [
+          "The lights keep flickering in my apartment, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_018",
+        "turns": [
+          "My dishwasher is broken, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_019",
+        "turns": [
+          "The refrigerator isn't cooling properly, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_020",
+        "turns": [
+          "My stove burner won't turn on, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_021",
+        "turns": [
+          "The garbage disposal is jammed, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_022",
+        "turns": [
+          "My washer is leaking water, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_023",
+        "turns": [
+          "My apartment door lock is stuck, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_024",
+        "turns": [
+          "The window in my bedroom won't close, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_025",
+        "turns": [
+          "My balcony door is off track, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_026",
+        "turns": [
+          "I'm locked out of my apartment, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_027",
+        "turns": [
+          "There's a hole in the wall that needs patching, create service request, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_028",
+        "turns": [
+          "My ceiling fan isn't working, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_029",
+        "turns": [
+          "There's water damage on my ceiling, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_030",
+        "turns": [
+          "The smoke detector keeps beeping, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_031",
+        "turns": [
+          "What's the status of my work orders? my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_032",
+        "turns": [
+          "Can you check on my maintenance request? my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_033",
+        "turns": [
+          "What's the status of my open maintenance requests? my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_034",
+        "turns": [
+          "When will maintenance fix my AC? my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_035",
+        "turns": [
+          "Has anyone scheduled my repair yet? my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_036",
+        "turns": [
+          "Show me my open service requests, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_037",
+        "turns": [
+          "What closed service requests do I have? my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_038",
+        "turns": [
+          "What's the status of my completed work orders? my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_039",
+        "turns": [
+          "Do I have any pending maintenance requests? my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_040",
+        "turns": [
+          "What's the status of my latest service request? my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_041",
+        "turns": [
+          "Show me only my AC repair request, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_042",
+        "turns": [
+          "Do I have multiple requests for the same issue? my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_043",
+        "turns": [
+          "Send me the service request link, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_044",
+        "turns": [
+          "Where can I view my service requests? my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_045",
+        "turns": [
+          "Can you give me the service request portal link? my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_046",
+        "turns": [
+          "There's a gas leak in my apartment, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_047",
+        "turns": [
+          "I smell smoke and there might be a fire hazard, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_048",
+        "turns": [
+          "My apartment is flooding badly, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_049",
+        "turns": [
+          "I have no heat and it's freezing outside, my unit number is {resident_unit_number}"
+        ],
+        "reference_output": [
+          ""
+        ]
+      }
+    ],
+    "multi_turn": [
+      {
+        "test_case_id": "TC_SERVICE_MT_001",
+        "turns": [
+          "My kitchen faucet is leaking, It's getting worse - water everywhere, create a service request? it is urgent",
+          "When it will be fixed?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_MT_006",
+        "turns": [
+          "Smoke from my neighbor's apartment is coming into mine, I have asthma and this is affecting my health",
+          "Can you create a complaint?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_MT_002",
+        "turns": [
+          "There's no hot water in my apartment, It's been like this since this morning in shower fixture -create a emergency service request?",
+          "How soon can someone get here?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_MT_003",
+        "turns": [
+          "I submitted a maintenance request, can you tell me status of my latest request?",
+          "When will it be completed?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_MT_004",
+        "turns": [
+          "I need to report a maintenance issue, A light bulb needs replacing in the hallway, create a service request?",
+          "When can someone come fix it?"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_MT_005",
+        "turns": [
+          "My AC in bedroom isn't working properly and Also, my bathroom light is flickering, create a service request?",
+          "Did you create two service requests? or one for both?",
+          "Can maintenance fix both in one visit?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_MT_006",
+        "turns": [
+          "I need to report a broken dishwasher, create service request for me?",
+          "When can maintenance come? I'll be home after 5pm if that works?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_MT_007",
+        "turns": [
+          "My faucet is leaking again",
+          "This was just fixed last month",
+          "Can someone come look at it properly this time?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_MT_008",
+        "turns": [
+          "What's the work order number for last service request?",
+          "Can you list all my service requests?",
+          "Has maintenance ordered the parts yet? How long until the parts arrive?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_MT_009",
+        "turns": [
+          "My bathroom water heater is leaking badly",
+          "This is an emergency, right? create a emergency service request?",
+          "Will I be charged for this maintenance?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_MT_010",
+        "turns": [
+          "I need maintenance for my broken AC, create a service request?",
+          "Can you also check what other work orders I have open?",
+          "What's the status on the last service request?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_MT_011",
+        "turns": [
+          "I'm locked out of my apartment, Can someone come help me now?",
+          "How long will it take?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_MT_012",
+        "turns": [
+          "I need to report a plumbing issue, My toilet is running constantly and won't stop",
+          "Yes, Can someone come today?",
+          "I can give access, I'll be home"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_MT_013",
+        "turns": [
+          "What is the status of my all open maintenance requests?",
+          "And when will the last service request be completed?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_MT_014",
+        "turns": [
+          "When is the annual HVAC inspection? create a service request?",
+          "Can I schedule mine?",
+          "What does the inspection include?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_MT_008",
+        "turns": [
+          "My neighbor is having a loud party, It's 2 AM and I have work tomorrow",
+          "yes connect to me the courtesy officer"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_COMPLAINT_MT_013",
+        "turns": [
+          "My neighbor's dog barks constantly, It's been going on for weeks, Can you create a complaint?",
+          "What's the pet policy?",
+          "connect me to the courtesy officer"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_SERVICE_FEEDBACK_MT_001",
+        "turns": [
+          "I want to see about having someone come fix the oven. The front left burner isnt working. Id also like to inquire if I can purchase my own shower head and have someone install it.",
+          "Yes",
+          "No everything else is wonderful."
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}

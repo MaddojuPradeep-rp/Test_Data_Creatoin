@@ -1,0 +1,662 @@
+{
+  "intent": "property_info",
+  "channel": "chat",
+  "total_test_cases": 61,
+  "single_turn_count": 39,
+  "multi_turn_count": 22,
+  "test_cases": {
+    "single_turn": [
+      {
+        "test_case_id": "TC_PROPERTY_001",
+        "turns": [
+          "What amenities can I access as a resident?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_002",
+        "turns": [
+          "What amenities are available?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_003",
+        "turns": [
+          "What amenities do you have for residents?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_004",
+        "turns": [
+          "What is the full list of amenities?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_005",
+        "turns": [
+          "What are the hours for the {amenity_name}?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_006",
+        "turns": [
+          "Is there a {amenity_name}?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_007",
+        "turns": [
+          "What equipment is available in the {amenity_name}?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_008",
+        "turns": [
+          "Is the {amenity_name} open 24/7?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_009",
+        "turns": [
+          "What are the pool hours?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_010",
+        "turns": [
+          "Is there a pool?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_011",
+        "turns": [
+          "Is the pool heated?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_012",
+        "turns": [
+          "Can I bring guests to use the pool?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_013",
+        "turns": [
+          "Is glass allowed at the pool?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_014",
+        "turns": [
+          "What days does the office open?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_015",
+        "turns": [
+          "When does the office close?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_016",
+        "turns": [
+          "What are the office hours?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_017",
+        "turns": [
+          "When does the office close today?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_018",
+        "turns": [
+          "Are there quiet hours?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_019",
+        "turns": [
+          "What are the quiet hours?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_020",
+        "turns": [
+          "What is the pet policy?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_021",
+        "turns": [
+          "Are pets allowed?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_022",
+        "turns": [
+          "What's the size limit for pets?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_023",
+        "turns": [
+          "Is there a pet deposit?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_024",
+        "turns": [
+          "What day is trash day?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_025",
+        "turns": [
+          "Are grills allowed on patios?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_026",
+        "turns": [
+          "Who do I call if my car was towed?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_027",
+        "turns": [
+          "How can I stop my mail?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_028",
+        "turns": [
+          "Where can I get an extra key for my apartment?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_029",
+        "turns": [
+          "Is this considered a smoke-free property?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_030",
+        "turns": [
+          "When does my lease end?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_031",
+        "turns": [
+          "What are the lease terms?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_032",
+        "turns": [
+          "Can you tell me my lease end date?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_033",
+        "turns": [
+          "How does the controlled access system work?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_034",
+        "turns": [
+          "Is the building gated?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_035",
+        "turns": [
+          "What security features does our building have?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_036",
+        "turns": [
+          "What kitchen appliances are included in my unit?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_037",
+        "turns": [
+          "Do all units have in-unit laundry?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_038",
+        "turns": [
+          "Is cable included in my rent?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_039",
+        "turns": [
+          "What utilities are included?"
+        ],
+        "reference_output": [
+          ""
+        ]
+      }
+    ],
+    "multi_turn": [
+      {
+        "test_case_id": "TC_PROPERTY_MT_001",
+        "turns": [
+          "What amenities are available?",
+          "What are the pool hours?",
+          "Connect with the staff"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_002",
+        "turns": [
+          "What are the pool hours?",
+          "Can I bring guests?",
+          "Is glass allowed at the pool?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_003",
+        "turns": [
+          "What are the quiet hours at this property?",
+          "What happens if someone violates quiet hours?",
+          "Are weekends different from weekdays?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_004",
+        "turns": [
+          "What is the pet policy?",
+          "What's the size limit?",
+          "Is there a pet deposit?",
+          "How many pets am I allowed?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_005",
+        "turns": [
+          "Tell me about the gym",
+          "What equipment do you have?",
+          "Are there any classes offered?",
+          "What are the hours?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_006",
+        "turns": [
+          "What are the office hours?",
+          "What if I need help after hours?",
+          "Do you have an emergency contact number?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_007",
+        "turns": [
+          "When does my lease end?",
+          "How do I renew?Can I negotiate the rent?",
+          "Want to talk to property staff"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_008",
+        "turns": [
+          "I'm moving in next week - what do I need to know?",
+          "How do I set up utilities?",
+          "Where do I get my access fob?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_009",
+        "turns": [
+          "Can I rent the Community Room for a party?",
+          "How do I make a reservation?",
+          "What's the maximum capacity?",
+          "Is there a fee?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_010",
+        "turns": [
+          "What day is trash day?",
+          "Are grills allowed on patios?",
+          "Is glass allowed at the pool?",
+          "Who do I call if my car was towed?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_011",
+        "turns": [
+          "I just moved in yesterday - what amenities are available?",
+          "Perfect. When is my first rent payment due?",
+          "And where do I pick up packages?",
+          "One more thing - are there community events I can join?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_012",
+        "turns": [
+          "Want to talk to human?",
+          "Want to know about guest policy"
+        ],
+        "reference_output": [
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_013",
+        "turns": [
+          "Are housing vouchers accepted?",
+          "What documentation do I need to apply for affordable housing?",
+          "How do I get started with the application?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_014",
+        "turns": [
+          "Do you offer housing units for veterans?",
+          "Is there an income requirement for this property?",
+          "What are the income limits for affordable housing here?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_015",
+        "turns": [
+          "Are there any affordable units currently available?",
+          "Is there a waitlist for affordable units?",
+          "How can I get on the waitlist?",
+          "Connect with the staff"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_016",
+        "turns": [
+          "Do you accept Section 8 vouchers?",
+          "What is the maximum income limit for affordable housing?",
+          "How do I qualify for reduced rent?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_017",
+        "turns": [
+          "Can students apply for this housing?",
+          "Is there an income requirement for this property?",
+          "What documentation do I need to apply for affordable housing?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_018",
+        "turns": [
+          "Are there any ADA accessible units?",
+          "Do you have housing for people with disabilities?",
+          "Are there any affordable units currently available?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_019",
+        "turns": [
+          "Do you participate in housing programs for seniors?",
+          "Are there subsidies available for rent?",
+          "What are the income limits for affordable housing here?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_020",
+        "turns": [
+          "Are there any low-income units available?",
+          "Is there a waitlist for affordable units?",
+          "I'd like to speak with someone about applying"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_021",
+        "turns": [
+          "Do you accept housing choice vouchers?",
+          "Is this property part of the affordable housing program?",
+          "What documentation do I need to apply for affordable housing?"
+        ],
+        "reference_output": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "test_case_id": "TC_PROPERTY_MT_022",
+        "turns": [
+          "Can I apply if I receive government assistance?",
+          "Are there any rent-controlled units?",
+          "How do I qualify for reduced rent?",
+          "Want to talk to property staff"
+        ],
+        "reference_output": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}
