@@ -27,6 +27,7 @@ def select_test_type(distribution: Dict[str, float]) -> Tuple[str, str]:
     chosen = random.choices(types, weights=weights, k=1)[0]
 
     difficulty_map = {
+        "single_turn": "easy",
         "policy_flow": "easy",
         "edge_case": "medium",
         "stress": "hard",
@@ -233,11 +234,26 @@ def _build_system_prompt(
             "",
             "The agent should maintain composure and redirect appropriately.",
         ])
+    elif test_type == "single_turn":
+        prompt_parts.extend([
+            "Generate a SINGLE-TURN test case:",
+            "- Exactly ONE user message and ONE agent response (2 messages total)",
+            "- The user message should be a standalone question or request",
+            "- No follow-up turns, no prior context needed",
+            "- The agent response should fully address the user's request in one reply",
+            "- Cover a realistic scenario a resident would ask in a single message",
+        ])
+
+    # Turn count guidance varies by test type
+    if test_type == "single_turn":
+        turn_guidance = "- Conversation MUST be exactly 2 turns (1 user message + 1 agent response)"
+    else:
+        turn_guidance = "- Conversation should be 4-8 turns (2-4 exchanges)"
 
     prompt_parts.extend([
         "",
         "=== QUALITY RULES ===",
-        "- Conversation should be 4-8 turns (2-4 exchanges)",
+        turn_guidance,
         "- Include realistic, natural dialogue",
         "- Acceptance criteria should be specific and testable",
         "- Priority should reflect severity (P0=critical, P3=nice-to-have)",

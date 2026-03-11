@@ -727,8 +727,10 @@ def run() -> None:
                     gen_conversation = gen.get("conversation", [])
                     final_conversation = gen_conversation if gen_conversation else conversation
 
-                    is_multi_turn = len(prior_turns) > 0
-                    turn_count = len(prior_turns) + 1
+                    # Classify based on the GENERATED conversation, not source
+                    gen_turn_count = len(final_conversation)
+                    is_multi_turn = gen_turn_count > 2
+                    turn_count = gen_turn_count
 
                     suggestion = {
                         "id": f"SUG-{session_id}-{t.get('turn_index', 0):04d}",

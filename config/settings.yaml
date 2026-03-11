@@ -64,10 +64,12 @@ multi_turn:
   detect_state_change: true
 
 # Test type distribution for generated test cases
+# single_turn: standalone single question + single answer (no multi-turn context)
 # policy_flow: clean slot-following conversation (happy path)
 # edge_case:   incomplete/vague/wrong answers, user corrections
 # stress:      off-topic, multi-intent, emotional/frustrated users
 test_types:
-  policy_flow: 0.70
+  single_turn: 0.30
+  policy_flow: 0.40
   edge_case: 0.20
   stress: 0.10
